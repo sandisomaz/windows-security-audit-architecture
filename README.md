@@ -47,7 +47,7 @@ flowchart TD
     end
 
     subgraph Backend["Zero-Dependency Native Backend (.NET / PowerShell)"]
-        Listener[System.Net.HttpListener - localhost:8080]
+        Listener[System.Net.HttpListener - localhost:8765]
         JobEngine[Asynchronous PowerShell Job Manager]
         Storage[JSON & Event Stream Serializer]
     end
@@ -96,10 +96,11 @@ flowchart TD
 ## 🛡️ Compliance Mapping & Drift Analysis
 
 ### Standard Framework Alignments
-Every finding is tagged with specific compliance cross-references:
+Audit modules include NIST SP 800-53 references, and the dashboard UI cross-references finding categories to:
 - **CIS Controls v8:** Workstation baseline configuration, logging, and account control.
-- **NIST CSF / SP 800-53:** Access control (AC), system and communications protection (SC).
+- **NIST CSF / SP 800-53:** Access control (AC), system and communications protection (SC), and incident response (IR).
 - **POPIA Section 19:** Mandatory security measures on integrity and confidentiality of personal data.
+- **MITRE ATT&CK (e.g., T1547):** Persistence hunting across autoruns, scheduled tasks, and WMI event subscriptions.
 
 ### Baseline Snapshot Drift Comparator
 Allows security analysts to capture a baseline snapshot of a clean system and compare subsequent scans to immediately pinpoint newly introduced registry persistence, modified services, or disabled security controls.
