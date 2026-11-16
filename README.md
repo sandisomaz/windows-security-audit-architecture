@@ -116,4 +116,12 @@ Allows security analysts to capture a baseline snapshot of a clean system and co
 
 ---
 
-Architected and maintained by **Sandiso Mazibuko**.
+---
+
+## 🔗 Portfolio & Technical Dossier
+
+- **Live System Overview:** [sandisomazibuko.com/technology/#windows-audit](https://sandisomazibuko.com/technology/#windows-audit)
+- **Audit Dossier:** [Windows Security Audit Dossier](https://sandisomazibuko.com/documents/windows-security-audit-dossier/)
+- **Canonical Portfolio:** [Sandiso Mazibuko](https://sandisomazibuko.com/) · [hello@sandisomazibuko.com](mailto:hello@sandisomazibuko.com)
+
+Architected and maintained by **[Sandiso Mazibuko](https://sandisomazibuko.com/)**.
